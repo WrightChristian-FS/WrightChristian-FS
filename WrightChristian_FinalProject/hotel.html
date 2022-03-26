@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Huntinton Beach</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js"></script>
+</head>
+<body>
+
+
+<div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hotel.html">Hotel</a></li>
+        <li><a href="hotels.html">Beach</a></li>
+        <li><a href="index.html">Food</a></li>
+    </ul>
+</div>
+
+    <div id="mainSection" style="visibility: visible">
+
+        <h1 id="hotelMainHeader">Hotels</h1>
+        <p id="hotelInfo">Let us help you find a hotel to book for your trip!</p>
+
+        <div class="container"  id="infoForm">
+            <div class="child" id="imageBlock"></div>
+            <div class="child2">
+                <div class="Header">
+                    <H1>Get Information</H1>
+                </div>
+
+                <div class="row1">
+                    <label >Full Name</label>
+                </div>
+
+                <div class="row1C">
+                    <input id="userName"  type="text" placeholder="Full Name">
+                </div>
+
+                <div class="row2">
+                    <label>Email Address</label>
+                </div>
+
+                <div class="row2C">
+                    <input id="useremail" type="email" placeholder="johnDoe@email.com">
+                </div>
+
+                <div class="row3">
+                    <Label>Check-In Date</Label>
+                </div>
+
+                <div class="row3C">
+                    <input id="checkInDate" type="date" value="2022-04-01">
+                </div>
+
+                <div class="row4">
+                    <label>Check-Out Date</label>
+                </div>
+
+                <div class="row4C">
+                    <input id="checkOutDate" type="date"value="2022-04-05" >
+                </div>
+
+                <div class="Submit-Button">
+                    <button onclick="GetData()">Get Information</button>
+                </div>
+            </div>
+
+
+
+            <div id="travelPlans" style="visibility: hidden" >
+                <h3 >Recommended Itinery </h3>
+
+
+            <div class="travelGrid">
+                <div class="travelIntro">
+                    <p><span id="repeatName"></span> we recommend the followng information for your upcoming trip to Huntington Beach from <span id="repeatStart"></span> to <span id="repeatEnd"></span></p>
+                </div>
+                <div class="travelRow1">
+                    <label>Hotel</label>
+
+                </div>
+                <div class="travelRow1C">
+                    <span id="hotelName" ></span>
+                </div>
+                <div class="travelRow2">
+                    <label>Price: </label>
+                </div>
+                <div class="travelRow2C">
+                    <span id="nightPrice"></span>
+                </div>
+                <div class="travelRow3">
+                    <label id="totalPrice" >Total Price: </label>
+                </div>
+                <div class="travelRow3C">
+                    <span id="grandTotal"></span>
+                </div>
+            </div>
+
+
+
+
+                <div class="more">
+                    <div class="more1">
+                        <h3>Resturants</h3>
+                    </div>
+                    <div class="more1C">
+                        <h3>Things to Do</h3>
+                    </div>
+                    <div class="more2">
+                        <ul class="moreHeader" id="Places to eat">
+                            <li>Pacific City</li>
+                            <li>Duke's HB</li>
+                            <li>Cucina Alessa</li>
+                            <li>Simmmzy's Restaurant HB</li>
+                        </ul>
+                    </div>
+                    <div class="more2C">
+                        <ul class="moreHeader">
+                            <li>Huntington State Beach</li>
+                            <li>Main Street USA</li>
+                            <li>Pacific City Mall</li>
+                            <li>Huntington Horse Park</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
