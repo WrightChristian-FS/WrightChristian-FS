@@ -1,0 +1,506 @@
+*{
+    /*background-color: cornflowerblue;*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ p {
+     line-height: 2em;
+     letter-spacing: .02em;
+ }
+
+
+.nav {
+    background-color: white;
+    align-content: end;
+
+}
+
+.nav ul {
+    list-style: none;
+    background-color: white;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+
+}
+.nav li {
+    display: inline-flex;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 30px;
+    font-size: large;
+    font-family: Helvetica;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+
+    box-shadow: inset 0 0 0 0 cornflowerblue;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    box-shadow: inset 100px 0 0 0 cornflowerblue;
+    color: white;
+}
+
+
+
+#headerImage {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(23,27,60,1) 0%, rgba(0,0,0,0.5452556022408963) 46%, rgba(41,219,255,0) 100%), url("Images /Huntington_Beach_Pier_page_banner.jpg");
+    background-size: cover;
+    filter: blur();
+    font-size: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkturquoise;
+    text-align: center;
+    font-family: "BREAK BEACH" ;
+}
+
+#headerDiv {
+    width: 90%;
+    text-align: center;
+    font-family: "BREAK BEACH" ;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: darkturquoise;
+}
+
+ #cityTitle {
+     font-size: 10em;
+     margin-bottom: 1em;
+     font-weight: bolder;
+ }
+
+#mainInfo {
+    color: chocolate;
+    margin-left: 10%;
+    line-height: 1em;
+    font-size: 1.4em;
+    line-height: 1em;
+    font-family: Helvetica;
+    letter-spacing: .03em;
+    line-height: 1.4em;
+}
+
+.container {
+    width:80%;
+    padding-left:20px;
+    padding-right:15px;
+    background-color: cornflowerblue;
+}
+#hotel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float:left;
+    width:30%;
+    margin-left: 50px;
+    box-shadow: 0 0 10px navy;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    background-color: cornflowerblue;
+}
+#shopping {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float:left;
+    width:30%;
+    margin-left: 25px;
+
+    height: 400px;
+
+    text-align: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 10px navy;
+
+}
+#food {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float:right;
+    width:30%;
+    margin-right: 80px;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 10px navy;
+
+}
+#hotelImage {
+    align-content: center;
+}
+#beachImage {
+    text-align: center;
+}
+#hotelButton{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    height: 20%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: cornflowerblue;
+
+}
+#beachButton{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    height: 20%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: cornflowerblue;
+
+}
+#shoppingButton {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    height: 20%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+
+#mainSection {
+    height: 1000px;
+    text-align: center;
+    align-content: center;
+    background-color: cornflowerblue;
+}
+
+#hotelMainHeader{
+    color: coral;
+    font-size: 5em;
+    font-family: Menlo;
+    padding-top: 20px;
+    text-transform: uppercase;
+    /*font-weight: lighter;*/
+    letter-spacing: 4px;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
+#hotelInfo{
+    color: navy;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+#entryBox{
+ background-color: whitesmoke;
+    /*box-shadow: 0 0 5px white;*/
+    padding: 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infoForm{
+    width: 80%;
+    height: 600px;
+    margin-right: auto ;
+    margin-left: auto;
+    margin-top: 100px;
+
+}
+
+.child {
+    width: 50%;
+    height: 559px;
+    float: left;
+    padding: 20px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(23,27,60,1) 0%, rgba(0,0,0,0.5452556022408963) 46%, rgba(41,219,255,0) 100%), url("Images /Dawn_Pool_Final_1_2500PX_LoRes1_ee214ec6-8acb-44a8-a6f2-edea37a32225.jpg");
+}
+
+
+
+.child2 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "Header Header"
+    "row1 row1C"
+    "row2 row2C"
+    "row3 row3C"
+    "row4 row4C"
+    "Submit-Button Submit-Button";
+    background-color: white;
+    height: 600px;
+}
+
+.Header { grid-area:
+        Header;
+        padding-top: 20px;
+        color: chocolate;
+        text-transform: uppercase;
+        font-size: 1em;
+
+}
+
+.row1 { grid-area:
+        row1;
+        padding-top: 10px;
+        text-align: right;
+}
+
+.row1C { grid-area:
+        row1C;
+        text-align: left;
+        padding-top: 10px;
+        font-size: 20px;
+}
+
+.row2 { grid-area:
+        row2;
+        padding-top: 10px;
+        text-align: right;
+}
+
+.row2C { grid-area:
+        row2C;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: left;
+}
+
+.row3 { grid-area:
+        row3;
+        padding-top: 10px;
+        text-align: right;
+}
+
+.row3C { grid-area:
+        row3C;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: left;
+}
+
+.row4 { grid-area:
+        row4;
+        padding-top: 10px;
+        text-align: right;
+}
+
+.row4C { grid-area:
+        row4C;
+        padding-top: 10px;
+        font-size: 20px;
+        text-align: left;
+}
+
+.Submit-Button { grid-area:
+        Submit-Button;
+}
+
+label{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button{
+    background-color: coral;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+}
+
+
+#travelPlans{
+    height: 600px;
+    margin-right: auto ;
+    margin-left: auto;
+    margin-top: 100px;
+    background-color: coral;
+    padding: 20px;
+    font-family: Roboto;
+}
+
+#travelPlans > h3 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+#travelPlans >p
+{
+    color: antiquewhite;
+    letter-spacing: .05em;
+    font-family: Roboto;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#travelPlans > label {
+    color: wheat;
+    font-weight: bolder;
+    display: block;
+    padding: 20px;
+    text-align: left;
+    padding-left: 20%;
+    font-size: 1em;
+}
+
+.travelGrid {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 50px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "travelIntro travelIntro"
+    "travelRow1 travelRow1C"
+    "travelRow2 travelRow2C"
+    "travelRow3 travelRow3C";
+
+    color: white;
+}
+
+.travelIntro {
+    grid-area: travelIntro;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+
+
+}
+
+.travelRow1 {
+    padding-top: 30px;
+    grid-area: travelRow1;
+    text-align: right;
+    font-size: 1.4em;
+
+}
+
+.travelRow1C {
+    padding-top: 30px;
+    grid-area: travelRow1C;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.travelRow2 {
+    grid-area: travelRow2;
+    color: white;
+    text-align: right;
+
+
+}
+
+.travelRow2C {
+    grid-area: travelRow2C;
+    text-align: left;
+    font-weight: bolder;
+
+
+}
+
+.travelRow3 {
+    grid-area: travelRow3;
+    color: white;
+    text-align: right;
+}
+
+.travelRow3C {
+    grid-area: travelRow3C;
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+
+.more {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "more1 more1C"
+    "more2 more2C";
+    list-style-type: none;
+}
+
+.more1 {
+    grid-area: more1;
+    color: navajowhite;
+    font-size: 2em;
+    height: ;
+}
+
+.more1C {
+    grid-area: more1C;
+    color: navajowhite;
+    font-size: 2em;
+}
+
+.more2 {
+    grid-area: more2;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    list-style-type: none;
+
+
+}
+
+.more2C {
+    grid-area: more2C;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+
+}
+
+
+
